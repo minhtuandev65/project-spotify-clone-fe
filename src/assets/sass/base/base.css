@@ -72,7 +72,7 @@
     @apply text-white;
   }
   .icon {
-    @apply !text-[20px];
+    @apply !text-[15px] md:!text-[20px];
   }
   .dark .icon {
     @apply !text-white;

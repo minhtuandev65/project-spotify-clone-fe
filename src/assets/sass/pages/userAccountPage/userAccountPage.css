@@ -4,7 +4,7 @@
     @apply !min-h-screen;
   }
   .custom-sider {
-    @apply !bg-white !border-r-2;
+    @apply !bg-white !border-r-2 !max-w-[50px] !min-w-[50px] md:!max-w-[80px] md:min-w-[80px];
   }
   .dark .custom-sider {
     @apply !bg-[#1E1F20] !min-h-screen;
@@ -22,12 +22,12 @@
     @apply !bg-[#1E1F20] !text-white;
   }
   .dark .custom-menu span {
-    @apply !text-white ;
+    @apply !text-white;
   }
   .dark .custom-menu a {
     @apply !text-white;
   }
   .dark .custom-menu li {
-    @apply hover:!bg-black ;
+    @apply hover:!bg-black;
   }
 }
