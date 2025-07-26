@@ -14,7 +14,7 @@ export const useFetchAudio = [
     popular: false,
     likeSong: false,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse2.mm.bing.net/th/id/OIP.kUqOPj_lP3wSSlN5zut8ggHaHa?pid=Api&P=0&h=180",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const useFetchAudio = [
     popular: false,
     likeSong: true,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse1.mm.bing.net/th/id/OIP.6PqMIQRYRDtYifLXSDzL6wHaEK?pid=Api&P=0&h=180",
   },
   {
     id: 3,
@@ -48,58 +48,58 @@ export const useFetchAudio = [
     popular: true,
     likeSong: false,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse4.mm.bing.net/th/id/OIP.qCuLGiETXuMF_U3JJHRsOwHaEK?pid=Api&P=0&h=180",
   },
   {
     id: 4,
     userId: 1,
     user: {
       fullName: "Cybersoft",
-      artist: "Sơn Tùng MTP",
+      artist: "Black Pink",
     },
     categories: "korea",
-    name: "Anh Muốn Tìm",
+    name: "Solo",
     listener: 30000,
     music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
     trend: false,
     popular: true,
     likeSong: true,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse4.mm.bing.net/th/id/OIP.yo0HUrSgCFhR1S-UC7KxbwHaLH?pid=Api&P=0&h=180",
   },
   {
     id: 5,
     userId: 1,
     user: {
       fullName: "Cybersoft",
-      artist: "Sơn Tùng MTP",
+      artist: "Michita ft 愛海",
     },
     categories: "japan",
-    name: "Trờ Về Nơi Đó",
+    name: "Cry For Me",
     listener: 30000,
     music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
     trend: true,
     popular: false,
     likeSong: false,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse1.mm.bing.net/th/id/OIP.gw94KlAH6l4gOfReZTrawwHaEK?pid=Api&P=0&h=180",
   },
   {
     id: 6,
     userId: 1,
     user: {
       fullName: "Cybersoft",
-      artist: "Âm Thầm Bên Em",
+      artist: "Mộng Nhiên",
     },
     categories: "chinese",
-    name: "Anh Muốn Tìm",
+    name: "Thiếu Niên - 少年",
     listener: 30000,
     music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
     trend: true,
     popular: false,
     likeSong: true,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse2.mm.bing.net/th/id/OIP.e8WPtVl6PihypO3lAPa-FgHaEK?pid=Api&P=0&h=180",
   },
   {
     id: 7,
@@ -116,7 +116,7 @@ export const useFetchAudio = [
     popular: false,
     likeSong: false,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse3.mm.bing.net/th/id/OIP.-MuzX5PeO4S8NLIrZ2_YMAHaHa?pid=Api&P=0&h=180",
   },
   {
     id: 8,
@@ -133,6 +133,6 @@ export const useFetchAudio = [
     popular: false,
     likeSong: false,
     thumbnail:
-      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+      "https://tse2.mm.bing.net/th/id/OIP.M34EejozeZzOGUzOyPxutgHaHa?pid=Api&P=0&h=180",
   },
 ];
