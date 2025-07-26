@@ -1,0 +1,32 @@
+@tailwind components;
+/* Header */
+@layer components {
+  .header {
+    @apply bg-white text-black shadow-custom-bottom flex justify-between items-center w-full relative z-50 !h-[80px] 
+    px-3 sm:px-5 md:px-10 lg:pr-[150px];
+  }
+  .dark .header {
+    @apply bg-black shadow-custom-bottom;
+  }
+  .header a {
+    @apply text-black;
+  }
+  .dark a {
+    @apply text-white;
+  }
+  /* Search */
+
+  /* Search Mobile */
+  .mobile-search-icon {
+    @apply fixed inset-0 bg-black bg-opacity-70 z-[999] flex items-center justify-center;
+  }
+  .dark .mobile-search  {
+    @apply text-white
+  }
+  .close-icon {
+    @apply absolute top-[3px] right-[5px] text-[18px] cursor-pointer;
+  }
+  .popup-content {
+    @apply bg-white p-5 rounded-lg w-[90%] max-w-[400px] relative;
+  }
+}

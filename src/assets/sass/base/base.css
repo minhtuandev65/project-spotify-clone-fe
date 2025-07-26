@@ -1,0 +1,102 @@
+@tailwind base;
+
+@layer base {
+  /* ===== RESET MỘT SỐ PHẦN TỬ CƠ BẢN ===== */
+  html,
+  body,
+  #root {
+    @apply m-0 p-0 h-[100%] w-[100%];
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-times !text-black !bg-white transition-colors duration-300 !h-screen;
+  }
+  .page {
+    @apply !bg-white;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-gray-900;
+  }
+
+  a {
+    @apply text-blue-600 hover:underline;
+  }
+
+  /* ===== RESPONSIVE FONT SIZE & SPACING ===== */
+  body {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  /* Desktop */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  /* Mobile */
+  @media (max-width: 575.98px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  /* DARK MODE support */
+  .dark body {
+    @apply bg-[#1E1F20] text-white;
+  }
+
+  .dark a {
+    @apply text-white;
+  }
+
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6,
+  .dark .custom-span {
+    @apply text-white;
+  }
+  .icon {
+    @apply !text-[20px];
+  }
+  .dark .icon {
+    @apply !text-white;
+  }
+  /* Base cho div cha */
+  .main {
+    @apply h-screen flex justify-center items-center;
+  }
+  /* Base cho các form điền thông tin */
+  .form-page {
+    @apply w-full max-w-[360px] p-8 md:p-10 rounded-[30px] shadow-2xl;
+  }
+  .dark .form-page {
+    @apply bg-black;
+  }
+  .custom-input {
+    @apply h-[50px] md:h-[40px] lg:h-[48px] rounded-[30px] text-base md:text-lg px-3 border border-gray-300;
+  }
+
+  .custom-button {
+    @apply w-full h-10 !bg-black hover:!bg-white text-white font-semibold rounded-[30px];
+  }
+
+  .logo {
+    @apply !fill-black;
+  }
+}

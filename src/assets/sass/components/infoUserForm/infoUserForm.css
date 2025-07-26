@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+    .dark .info_card {
+        @apply !bg-white
+    }
+    .dark .text_info {
+        @apply !text-black
+    }
+}

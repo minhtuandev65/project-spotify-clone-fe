@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./base/base.css";
+@import "./components/header/header.css";
+@import "./pages/userAccountPage/userAccountPage.css";
+@import "./components/infoUserForm/infoUserForm.css";
+@import "./components/audio//audioCard/audioCard.css";
+@import "./components/audio/audioArtist/audioArtist.css";

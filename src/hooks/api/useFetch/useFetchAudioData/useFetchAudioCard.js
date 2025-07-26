@@ -1,0 +1,138 @@
+export const useFetchAudio = [
+  {
+    id: 1,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "vietnamese",
+    name: "Lạc Trôi",
+    listener: 1000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    trend: false,
+    popular: false,
+    likeSong: false,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 2,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "vietnamese",
+    name: "Em Đừng đi",
+    listener: 5400,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    trend: false,
+    popular: false,
+    likeSong: true,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 3,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "vietnamese",
+    name: "Anh Sai Rồi",
+    listener: 22000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: false,
+    popular: true,
+    likeSong: false,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 4,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "korea",
+    name: "Anh Muốn Tìm",
+    listener: 30000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: false,
+    popular: true,
+    likeSong: true,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 5,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "japan",
+    name: "Trờ Về Nơi Đó",
+    listener: 30000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: true,
+    popular: false,
+    likeSong: false,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 6,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Âm Thầm Bên Em",
+    },
+    categories: "chinese",
+    name: "Anh Muốn Tìm",
+    listener: 30000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: true,
+    popular: false,
+    likeSong: true,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 7,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "vietnamese",
+    name: "Nơi Này Có Anh",
+    listener: 30000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: false,
+    popular: false,
+    likeSong: false,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+  {
+    id: 8,
+    userId: 1,
+    user: {
+      fullName: "Cybersoft",
+      artist: "Sơn Tùng MTP",
+    },
+    categories: "vietnamese",
+    name: "Chắc Ai Đó Sẽ Về",
+    listener: 80000,
+    music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    trend: false,
+    popular: false,
+    likeSong: false,
+    thumbnail:
+      "https://tse1.mm.bing.net/th/id/OIP.JWvb4plR7lZb_X8OI2oubwHaHa?pid=Api&P=0&h=180",
+  },
+];
